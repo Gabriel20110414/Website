@@ -1,0 +1,107 @@
+/* Whole page */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Header and menu */
+header {
+  background-color: #77b9ff;
+  color: white;
+  text-align: center;
+  padding: 20px 10px;
+}
+
+header h1 {
+  margin: 0 0 10px 0;
+  font-family: Georgia, serif;
+}
+
+nav a {
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+  padding: 8px 14px;
+  border-radius: 5px;
+}
+
+nav a:hover {
+  background-color: white;
+  color: #0f0f0f;
+}
+
+header hr {
+  display: none;
+}
+
+/* Main content */
+main {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h2 {
+  color: #000000;
+  text-align: center;
+  font-family: Georgia, serif;
+  border-bottom: 2px solid #050505;
+  padding-bottom: 10px;
+}
+
+h3 {
+  color: #1b4f72;
+}
+
+hr {
+  border: none;
+  border-top: 2px solid #ccc;
+  margin: 40px 0;
+}
+
+/* Home image */
+#home img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+/* City boxes */
+article {
+  background-color: white;
+  padding: 20px;
+  margin-bottom: 25px;
+  border-radius: 8px;
+  border-left: 6px solid #1b4f72;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+article img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+/* Links in the page */
+main a {
+  color: #1b4f72;
+}
+
+/* Back to top links */
+section > p:last-child a {
+  display: inline-block;
+  background-color: #65bdf8;
+  color: white;
+  padding: 8px 16px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+section > p:last-child a:hover {
+  background-color: #1b4f72;
+}
